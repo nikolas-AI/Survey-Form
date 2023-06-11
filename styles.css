@@ -56,18 +56,17 @@ form {
 }
 
 fieldset {
-    height: 280px;
     min-width: 300px;
     margin: 10px;
     /* border: none; */
     display: flex;
     flex-direction: column;
 }
-.b {
-   
-    align-items: space-around;
-}
 
 input[type="radio"] {
+    margin-top: 20px;
+}
+
+input[type="checkbox"] {
     margin-top: 20px;
 }
