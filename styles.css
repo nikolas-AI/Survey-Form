@@ -1,7 +1,7 @@
 body {
     background: url(TXT.png);
-    background-size:700px 700px;
-    background-position:  center;
+    background-size:200px 200px;
+    background-position:  bottom;
     background-repeat: no-repeat;
     font-family: monospace;
     font-size: 16px;
@@ -56,7 +56,7 @@ form {
     flex-direction: column;
     align-items: s;
     justify-content: space-around;
-    margin-bottom: 50px;
+    margin-bottom: 200px;
 }
 
 fieldset {
