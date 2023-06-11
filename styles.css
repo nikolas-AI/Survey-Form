@@ -13,21 +13,46 @@ body {
 h1, p {
     text-align: center;
 }
+#name, #email, #number {
+    display: block;
+    margin: 1em;
+    min-height: 2em;
+    width: 90%;
+    font-size: 1rem;
+    background-color: rgb(176, 177, 182);
+    color: black;
+}
+
+::placeholder{
+    color: rgb(116, 104, 104);
+}
+
+#name-label, #email-label, #number-label{
+    font-size: 1.5rem;
+}
 
 form {
     margin: auto;
-    height: 600px;
-    max-width: 9000px;
-    background: rgba(38, 118, 183, 0.5);
+    height: auto;
+    background: rgba(1, 11, 19, 0.881);
     border-radius: 10px;
+    color: rgb(195, 204, 207);
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: s;
+    justify-content: space-around;
 }
 fieldset {
+    height: 280px;
+    min-width: 300px;
     margin-bottom: 10px;
     border: none;
     display: flex;
     flex-direction: column;
+}
+input[type="radio"] {
+    margin-top: 10px;
 
 }
