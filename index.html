@@ -10,25 +10,53 @@
         <h1 id="title">Survey Form</h1>
         <p id="description">This is a survey form to collect some data.</p>
         <form action="#" id="survey-form">
-            <label id="name-label" for="name">Name: 
-                <input type="text" id="name" placeholder="Enter your name." required>
-            </label>
-            <label id="email-label" for="email">Email: 
-                <input type="email" id="email" placeholder="Enter your email." required>
-            </label>
-            <label id="number-label" for="number">Number: 
-                <input type="number" id="number" pattern="[0-9]{10,10}" placeholder="Enter a number." required>
-            </label>
-            <label for="">
-                <select name="" id="dropdown">
-                    <option value=""></option>
-                    <option value=""></option>
-                </select>
-            </label>
-            <label for="">
-                <input type="radio" name="a">
-                <input type="radio" name="a">
-            </label>
+            <fieldset>
+                <label id="name-label" for="name">Name: 
+                    <input type="text" id="name" placeholder="Enter your name." required>
+                </label>
+                <label id="email-label" for="email">Email: 
+                    <input type="email" id="email" placeholder="Enter your email." required>
+                </label>
+                <label id="number-label" for="number">Number: 
+                    <input type="number" id="number" pattern="[0-9]" max="100" min="10" placeholder="Enter a number." required>
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <label for="dropdown">Your car:
+                    <select name="car" id="dropdown">
+                        <option value="">Lambo</option>
+                        <option value="">Bently</option>
+                        <option value="">Bugatti</option>
+                        <option value="">Tesla</option>
+                    </select>
+                </label>
+                <label for="love-car"> 
+                    <input type="radio" name="preference" value="love-car" id="love-car">
+                    Love car
+                </label>
+                <label for="love-jet">
+                    <input type="radio" name="preference" value="love-jet" id="love-jet">
+                    Love jet
+                </label>
+            </fieldset>
+            
+            <fieldset>
+                <label for="">
+                    <input type="checkbox" value="" id="">
+                </label>
+                <label for="">
+                    <input type="checkbox" value="" id="">
+                </label>
+                <label for="">
+                    <input type="checkbox" value="" id="">
+                </label>
+                <label for="">
+                    <textarea value="" id="">
+                </label>
+            </fieldset>
+
+            <input type="submit" value="Submit">
         </form>
     </body>
 </html>
