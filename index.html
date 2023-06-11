@@ -6,4 +6,19 @@
         <title>Survey Form</title>
         <link rel="stylesheet" href="styles.css">
     </head>
+    <body>
+        <h1 id="title">Survey Form</h1>
+        <p id="description">This is a survey form to collect some data.</p>
+        <form action="#" id="survey-form">
+            <label for="name">Name: 
+                <input type="text" id="name" required>
+            </label>
+            <label for="email">Email: 
+                <input type="email" id="email" required>
+            </label>
+            <label for="number">Number: 
+                <input type="number" id="number" pattern="[0-9]{10,10}" required>
+            </label>
+        </form>
+    </body>
 </html>
