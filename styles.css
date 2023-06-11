@@ -3,13 +3,17 @@ body {
     background-size:700px 700px;
     background-position:  center;
     background-repeat: no-repeat;
-    font-family: 'Poppins', sans-serif;
+    font-family: monospace;
     font-size: 16px;
     width: 100vh;
     height: 100%;
     margin: auto;
 }
 
+h1 {
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
 h1, p {
     text-align: center;
 }
@@ -27,11 +31,11 @@ h1, p {
     color: rgb(63, 61, 61);
 }
 
-#name-label, #email-label, #number-label, #dropdown-label, #radio-label{
+#name-label, #email-label, #number-label, #dropdown-label, #radio-label, #hi-label, #hello-label, #hey-label, #textarea-label{
     font-size: 1.5rem;
 }
 
-select {
+select, textarea {
     display: block;
     margin: 1em;
     min-height: 2em;
@@ -52,7 +56,7 @@ form {
     flex-direction: column;
     align-items: s;
     justify-content: space-around;
-    margin-bottom: 5px;
+    margin-bottom: 50px;
 }
 
 fieldset {
@@ -69,4 +73,22 @@ input[type="radio"] {
 
 input[type="checkbox"] {
     margin-top: 20px;
+}
+
+#textarea-label {
+    margin-top: 20px;
+}
+
+input[type="submit"] {
+    width: 50%;
+    margin: auto;
+    height: 35px;
+    margin-bottom: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(67, 68, 71);
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: monospace;
+    color: rgb(214, 212, 212);
+
 }
