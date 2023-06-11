@@ -10,14 +10,24 @@
         <h1 id="title">Survey Form</h1>
         <p id="description">This is a survey form to collect some data.</p>
         <form action="#" id="survey-form">
-            <label for="name">Name: 
-                <input type="text" id="name" required>
+            <label id="name-label" for="name">Name: 
+                <input type="text" id="name" placeholder="Enter your name." required>
             </label>
-            <label for="email">Email: 
-                <input type="email" id="email" required>
+            <label id="email-label" for="email">Email: 
+                <input type="email" id="email" placeholder="Enter your email." required>
             </label>
-            <label for="number">Number: 
-                <input type="number" id="number" pattern="[0-9]{10,10}" required>
+            <label id="number-label" for="number">Number: 
+                <input type="number" id="number" pattern="[0-9]{10,10}" placeholder="Enter a number." required>
+            </label>
+            <label for="">
+                <select name="" id="dropdown">
+                    <option value=""></option>
+                    <option value=""></option>
+                </select>
+            </label>
+            <label for="">
+                <input type="radio" name="a">
+                <input type="radio" name="a">
             </label>
         </form>
     </body>
