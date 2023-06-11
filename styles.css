@@ -3,7 +3,7 @@ body {
     background-size:700px 700px;
     background-position:  center;
     background-repeat: no-repeat;
-    font-family: Tahoma;
+    font-family: 'Poppins', sans-serif;
     font-size: 16px;
     width: 100vh;
     height: 100%;
@@ -24,11 +24,21 @@ h1, p {
 }
 
 ::placeholder{
-    color: rgb(116, 104, 104);
+    color: rgb(63, 61, 61);
 }
 
-#name-label, #email-label, #number-label{
+#name-label, #email-label, #number-label, #dropdown-label, #radio-label{
     font-size: 1.5rem;
+}
+
+select {
+    display: block;
+    margin: 1em;
+    min-height: 2em;
+    width: 90%;
+    font-size: 1rem;
+    background-color: rgb(176, 177, 182);
+    color: black;
 }
 
 form {
@@ -38,21 +48,26 @@ form {
     border-radius: 10px;
     color: rgb(195, 204, 207);
     font-size: 18px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     display: flex;
     flex-direction: column;
     align-items: s;
     justify-content: space-around;
+    margin-bottom: 5px;
 }
+
 fieldset {
     height: 280px;
     min-width: 300px;
-    margin-bottom: 10px;
-    border: none;
+    margin: 10px;
+    /* border: none; */
     display: flex;
     flex-direction: column;
 }
-input[type="radio"] {
-    margin-top: 10px;
+.b {
+   
+    align-items: space-around;
+}
 
+input[type="radio"] {
+    margin-top: 20px;
 }

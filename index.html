@@ -10,7 +10,7 @@
         <h1 id="title">WeShare Survey Form</h1>
         <p id="description">Thank you for taking the time to help us improve the club.</p>
         <form action="#" id="survey-form">
-            <fieldset>
+            <fieldset class="a">
                 <label id="name-label" for="name">Name: 
                     <input type="text" id="name" placeholder="Enter your name." required>
                 </label>
@@ -22,26 +22,27 @@
                 </label>
             </fieldset>
 
-            <fieldset>
-                <label for="dropdown">Your car:
+            <fieldset class="b">
+                <label id="dropdown-label" for="dropdown">Your car:
                     <select name="car" id="dropdown">
+                        <option value="">Select</option>
                         <option value="">Lambo</option>
                         <option value="">Bently</option>
                         <option value="">Bugatti</option>
                         <option value="">Tesla</option>
                     </select>
                 </label>
-                <label for="love-car"> 
+                <label for="love-car" id="radio-label"> 
                     <input type="radio" name="preference" value="love-car" id="love-car">
                     I Love car
                 </label>
-                <label for="love-jet">
+                <label for="love-jet" id="radio-label">
                     <input type="radio" name="preference" value="love-jet" id="love-jet">
                     I Love jet
                 </label>
             </fieldset>
 
-            <fieldset>
+            <fieldset class="c">
                 <label for="">
                     <input type="checkbox" value="" id="">
                     Hi
