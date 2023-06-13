@@ -23,13 +23,13 @@ h1, p {
     min-height: 2em;
     width: 90%;
     font-size: 1rem;
-    background-color: rgb(176, 177, 182);
-    color: black;
+    background-color: rgb(36, 42, 74);
+    color: rgb(255, 255, 255);
     border: 0;
 }
 
 ::placeholder{
-    color: rgb(63, 61, 61);
+    color: grey;
 }
 
 #name-label, #email-label, #number-label, #dropdown-label, #radio-label, #hi-label, #hello-label, #hey-label, #textarea-label{
@@ -42,14 +42,15 @@ select, textarea {
     min-height: 2em;
     width: 90%;
     font-size: 1rem;
-    background-color: rgb(176, 177, 182);
-    color: black;
+    background-color: rgb(36, 42, 74);
+    color: rgb(255, 244, 244);
+    border: 0px;
 }
 
 form {
     margin: auto;
     height: auto;
-    background: rgba(1, 11, 19, 0.881);
+    background: rgba(2, 15, 57, 0.996);
     border-radius: 10px;
     color: rgb(195, 204, 207);
     font-size: 18px;
@@ -86,7 +87,7 @@ input[type="submit"] {
     height: 35px;
     margin-bottom: 10px;
     border: 2px solid rgb(255, 255, 255);
-    background-color: rgb(67, 68, 71);
+    background-color: rgb(36, 42, 74);
     border-radius: 10px;
     font-size: 20px;
     font-family: monospace;
