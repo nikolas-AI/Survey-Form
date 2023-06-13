@@ -25,6 +25,7 @@ h1, p {
     font-size: 1rem;
     background-color: rgb(176, 177, 182);
     color: black;
+    border: 0;
 }
 
 ::placeholder{
@@ -92,3 +93,5 @@ input[type="submit"] {
     color: rgb(214, 212, 212);
 
 }
+
+
