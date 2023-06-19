@@ -32,8 +32,14 @@ h1, p {
     color: grey;
 }
 
-#name-label, #email-label, #number-label, #dropdown-label, #radio-label, #hi-label, #hello-label, #hey-label, #textarea-label{
+#name-label, #email-label, #number-label, #dropdown-label, #radio-label, #Leadership-label, #Communication-label, #Problem-solving-label, #Teamwork-label, #Technical-expertise-label, #textarea-label{
     font-size: 1.5rem;
+}
+
+p {
+    font-size: 1.5rem;
+    text-align: left;
+    margin-bottom: 0;
 }
 
 select, textarea {
